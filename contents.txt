@@ -1,0 +1,14 @@
+*npm init=>package name,entry point-server.js,MIT lisence
+*npm i express
+*Create server.js
+
+const express = require('express');
+const port=4040;
+const app = express();
+app.get('/',(req,res)=>{
+    res.send({ message:'Hello World' });
+});
+app.listen(port, () => console.log(`Server running on port ${port}`));
+
+*package.json=>scripts: start:node server.js
+*npm start
