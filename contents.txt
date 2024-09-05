@@ -17,3 +17,5 @@ app.listen(port, () => console.log(`Server running on port ${port}`));
 
 *npm i -D nodemon (Nodemon install as dev dependency)
 *package.json=>scripts: dev:nodemon server.js (Add to scripts)
+
+*DB
