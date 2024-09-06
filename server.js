@@ -7,7 +7,7 @@ connectDB();
 
 const app = express();
 
-//Nody parser middleware
+//Body parser middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
